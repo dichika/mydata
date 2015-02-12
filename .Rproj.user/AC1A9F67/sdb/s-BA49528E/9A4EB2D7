@@ -1,0 +1,16 @@
+{
+    "contents" : "dat <- read.csv(textConnection(scan(file=\"/dev/cu.usbserial-A603PK8A\",n=10,what=\"character\")),header=FALSE)\nres <- data.frame(time=Sys.time(),\n                  light=mean(dat$V1), \n                  temperature=mean(dat$V2))\nwrite.table(res, \"~/mydata/room.csv\",\n            sep=\",\", row.names=FALSE,\n            col.names=FALSE,\n            append=TRUE)",
+    "created" : 1423718606514.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "346134703",
+    "id" : "9A4EB2D7",
+    "lastKnownWriteTime" : 1423718650,
+    "path" : "~/monitoring.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

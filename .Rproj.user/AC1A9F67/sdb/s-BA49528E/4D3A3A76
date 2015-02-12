@@ -1,0 +1,16 @@
+{
+    "contents" : "#Rscript --vanilla /Users/ichikawadaisuke/monitoring.R\n#cd /Users/ichikawadaisuke/mydata\n#git add /Users/ichikawadaisuke/jaguchi/inst/data/room.csv\n#git commit -m \"room update\"\n#git push origin master",
+    "created" : 1423718488913.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1618900403",
+    "id" : "4D3A3A76",
+    "lastKnownWriteTime" : 1423718619,
+    "path" : "~/room_update.sh",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "sh"
+}
